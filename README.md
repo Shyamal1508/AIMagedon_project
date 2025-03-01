@@ -2,6 +2,9 @@
 AIMagedon is a powerful jupyteer notebook that uses the given dataset https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008.This 
 project is designed to  predict that whether diabetic patient will be readmitted before or after 30 days or won't be readmitted.
 
+To run this ptroject,kindly install the following libraries:
+pip install numpy pandas scikit-learn scipy
+
 Data Preprocessing:
 i)Dropped 10 columns which has lowest correlation with target column
 2)Applied SMOTE technique to handle imbalance in  dataset
